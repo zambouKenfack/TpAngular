@@ -1,0 +1,66 @@
+<div class="dashboard-container">
+  <div class="header">
+    <div class="header-content">
+      <h1 class="dashboard-title">BIENVENU Dans Mon Tableau de Bord</h1>
+      <div class="header-actions">
+        <button mat-raised-button color="warn" class="deconnexion-btn" routerLink="/deconnexion">
+          <mat-icon>exit_to_app</mat-icon>
+          Déconnexion
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <mat-tab-group>
+    <mat-tab label="Gestion des Maisons">
+      <div class="section">
+        <div class="section-header">
+          <h2 class="card-title">Gestion des Maisons</h2>
+          <div class="action-container">
+            <a mat-button routerLink="/gererMaison" class="nav-link action-card">
+              <mat-icon class="action-icon">home</mat-icon>
+              <div class="action-content">
+                <h3>Accéder à la gestion des maisons</h3>
+                <p class="action-description">Gérer toutes les propriétés disponibles</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+
+    <mat-tab label="Gestion des Quartiers">
+      <div class="section">
+        <div class="section-header">
+          <h2 class="card-title">Gestion des Quartiers</h2>
+          <div class="action-container">
+            <a mat-button routerLink="/gererQuatier" class="nav-link action-card">
+              <mat-icon class="action-icon">apartment</mat-icon>
+              <div class="action-content">
+                <h3>Accéder à la gestion des quartiers</h3>
+                <p class="action-description">Organiser les zones résidentielles</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+
+    <mat-tab label="Gestion des Catégories">
+      <div class="section">
+        <div class="section-header">
+          <h2 class="card-title">Gestion des Catégories</h2>
+          <div class="action-container">
+            <a mat-button routerLink="/gererCategories" class="nav-link action-card">
+              <mat-icon class="action-icon">category</mat-icon>
+              <div class="action-content">
+                <h3>Accéder à la gestion des catégories</h3>
+                <p class="action-description">Classer les types de propriétés</p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+</div>

@@ -1,0 +1,52 @@
+
+<div class="auth-container">
+    <div class="auth-content">
+        <div class="auth-card">
+            <div class="auth-header">
+                <h2>Se connecter</h2>
+                
+            </div>
+            <form class="auth-form" (ngSubmit)="onSubmit()">
+                <div class="form-group">
+                    <label>Username</label>
+                    <div class="input-container">
+                        <button type="button" class="auth-input-button">
+                            <span class="input-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="12" cy="7" r="4"></circle>
+                                </svg>
+                            </span>
+                            <span class="input-value">Zambou</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Mot de passe</label>
+                    <div class="input-container">
+                        <button type="button" class="auth-input-button">
+                            <span class="input-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8Z"></path>
+                                    <circle cx="12" cy="12" r="3"></circle>
+                                </svg>
+                            </span>
+                            <span class="input-value">...............................</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="form-group remember-forgot">
+                    <div class="remember">
+                        <input type="checkbox" id="remember">
+                        <label for="remember">Se souvenir de moi</label>
+                    </div>
+                    <a href="#" class="forgot-password">Mot de passe oublié ?</a>
+                </div>
+                <button  class="auth-button"><a href="/connexion">Connexion</a></button>
+                <div class="auth-footer">
+                    <p>Pas encore inscrit ? <a href="/creercompte">Créer un compte</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

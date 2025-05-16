@@ -1,0 +1,22 @@
+#poo{
+    color: white;
+    background-color: red;
+    width: 100%;
+    padding-block: 1%;
+    border-radius: 7px;
+    padding-block: 1%;
+
+}
+
+#poo1{
+    color: white;
+    background-color: red;
+    margin-top: 2%;
+    width: 100%;
+    border-radius: 7px;
+    padding-block: 1%;
+}
+
+h2{
+    text-align: center;
+}

@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 40px auto;
+    text-align: center;
+    
+  }
+  
+  h1 {
+    color: #1d1d1d;
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  
+  .btn-create {
+    background-color: #3da343;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    margin-left: -80%;
+    margin-top: 4%;
+  }
+  .btn-create:hover {
+    animation: bounce 0.3s;
+  }
+  
+  .quartier-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    margin-bottom: 30px;
+    margin-top: 2%;
+  }
+  
+  .quartier-table thead tr {
+    background: linear-gradient(to right, #001f3f, #003366);
+    color: white;
+  }
+  
+  .quartier-table th, .quartier-table td {
+    padding: 14px;
+    text-align: center;
+  }
+  
+  .quartier-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .btn {
+    padding: 8px 14px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .btn.modifier {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .btn.supprimer {
+    background-color: #f44336;
+  }
+  
+  .btn:hover {
+    animation: bounce 0.3s;
+  }
+  
+  .btn-retour {
+    background-color: #00695c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    margin-left: -77%;
+    margin-top: 3%;
+  }
+  
+  .btn-retour:hover {
+    animation: bounce 0.3s;
+  }
+  
+  @keyframes bounce {
+    0%   { transform: scale(1); }
+    50%  { transform: scale(1.08); }
+    100% { transform: scale(1); }
+  }
+  
